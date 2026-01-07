@@ -8,7 +8,7 @@ export const metadata = {
 const PrivacyPolicy = () => {
   return (
     <div className="container mx-auto px-4 max-w-6xl py-8">
-      <h1 className="text-lg md:text-3xl md:text-5xl font-bold mb-4 text-black">Privacy Policy</h1>
+      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-black">Privacy Policy</h1>
       <p className="mb-4 text-base md:text-lg text-gray-700">
         Updated at December 24th, 2025
       </p>
