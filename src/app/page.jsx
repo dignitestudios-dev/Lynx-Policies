@@ -29,6 +29,12 @@ const Home = () => {
         >
           Community Guidelines
         </Link>
+        <Link
+          href="/child-safety-policy"
+          className="font-semibold text-sm md:text-xl text-gray-700 hover:underline no-underline"
+        >
+          Child Safety Policy
+        </Link>
       </header>
       <h1 className="text-[120px] sm:text-[240px] font-black text-center mt-8">
         Lynx

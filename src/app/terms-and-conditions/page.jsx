@@ -9,196 +9,261 @@ export const metadata = {
 const TermsAndConditions = () => {
   return (
     <div className="container mx-auto px-4 max-w-6xl py-8">
-      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-black">
-        TERMS AND CONDITIONS
-      </h1>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        Last Updated: December 24th, 2025
-      </p>
+  <h1 className="text-3xl md:text-5xl font-bold mb-4 text-black">
+    TERMS AND CONDITIONS OF SERVICE
+  </h1>
 
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        These Terms and Conditions (the "Agreement") constitute a legally
-        binding contract between EGAC GROUP LLC (d/b/a "Lynx"), located at 8 THE
-        Green STE B Dover, DE 19901 (the "Company," "we," "us," or "our"), and
-        you, whether personally or on behalf of an entity ("you" or "user").
-      </p>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        By accessing the Lynx website or using the software application (the
-        "Service"), you acknowledge that you have read, understood, and agreed
-        to be bound by these terms. If you do not agree with all of these terms,
-        you are expressly prohibited from using the Service and must discontinue
-        use immediately.
-      </p>
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Effective Date: March 9, 2026
+  </p>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        1. GRANT OF LICENSE
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        Lynx grants you a revocable, non-exclusive, non-transferable, and
-        limited license to download, install, and utilize the application
-        strictly in accordance with the terms of this Agreement. All rights not
-        expressly granted to you are reserved by Lynx.
-      </p>
+  {/* ARTICLE I */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE I: DEFINITIONS, SCOPE, AND ACCEPTANCE OF AGREEMENT
+  </h2>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        2. RESTRICTIONS ON USE
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        Users shall not, and shall not permit any third party to:
-      </p>
-      <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
-        <li>
-          Commercially exploit the Service, including licensing, selling,
-          renting, or leasing the application.
-        </li>
-        <li>
-          Reverse engineer, disassemble, decompile, or attempt to derive the
-          source code of any part of the Service.
-        </li>
-        <li>Modify or create derivative works of the application.</li>
-        <li>
-          Remove, alter, or obscure any proprietary notices, including copyright
-          or trademark notices.
-        </li>
-      </ul>
+  <h3 className="text-base md:text-2xl font-semibold mb-2 text-black">
+    1.1 Definitions
+  </h3>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        3. PAYMENTS AND BILLING
-      </h2>
-      <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
-        <li>
-          Fees: You agree to pay all charges incurred by your account at the
-          prices in effect when such charges are incurred.
-        </li>
-        <li>
-          Authorization: By providing a payment method, you authorize Lynx to
-          verify your information and charge all due fees without further notice
-          or consent.
-        </li>
-        <li>
-          Price Adjustments: Lynx reserves the right to change prices and
-          billing methods at any time.
-        </li>
-        <li>
-          Collections: You are responsible for all costs, including attorney
-          fees and court costs, incurred by Lynx in the collection of delinquent
-          undisputed amounts.
-        </li>
-      </ul>
+  <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700 space-y-2">
+    <li>
+      <strong>App:</strong> The Lynx mobile application including all websites,
+      APIs, source code, user interfaces, databases, infrastructure, updates,
+      and related digital features.
+    </li>
+    <li>
+      <strong>Company:</strong> EGAC GROUP LLC, a Delaware limited liability
+      company, including its members, managers, employees, affiliates, and
+      permitted assigns.
+    </li>
+    <li>
+      <strong>Services:</strong> The marketplace functionality enabling Users to
+      discover, communicate, schedule, book, and process payments for services.
+    </li>
+    <li>
+      <strong>User:</strong> Any individual or entity accessing or using the
+      App, including Service Providers and Service Consumers.
+    </li>
+    <li>
+      <strong>Service Provider:</strong> A User offering services through the
+      App such as tutoring, photography, event planning, or IT support.
+    </li>
+    <li>
+      <strong>Service Consumer:</strong> A User who books or purchases services
+      through the App.
+    </li>
+    <li>
+      <strong>Transaction:</strong> Any interaction, booking, or agreement
+      between a Service Provider and Service Consumer initiated through the
+      App.
+    </li>
+    <li>
+      <strong>Content:</strong> Text, images, profiles, reviews, messages, or
+      other materials uploaded or displayed on the App.
+    </li>
+  </ul>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        4. INTELLECTUAL PROPERTY RIGHTS
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        The Service, including its source code, databases, functionality,
-        software, designs, audio, video, text, and graphics, is owned by Lynx or
-        its licensors and is protected by United States and international
-        intellectual property laws. Any unauthorized reproduction or
-        distribution is strictly prohibited.
-      </p>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        Any feedback or suggestions you provide shall become the sole and
-        exclusive property of Lynx, which may use such information for any
-        purpose without compensation to you.
-      </p>
+  <h3 className="text-base md:text-2xl font-semibold mb-2 text-black">
+    1.2 Scope and Nature of Agreement
+  </h3>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        5. THIRD-PARTY CONTENT AND SERVICES
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        The Service may contain links to third-party websites or include
-        third-party content. Lynx does not monitor, endorse, or assume any
-        liability for the accuracy or practices of these third parties. Your
-        interaction with any third-party service is at your own risk and subject
-        to their respective terms.
-      </p>
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    These Terms constitute a legally binding agreement between you and the
+    Company governing your use of the App and Services. Your continued use of
+    the App is conditioned upon compliance with these Terms.
+  </p>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        6. WARRANTY DISCLAIMER
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        The service is provided on an "as-is" and "as-available" basis. to the
-        fullest extent permitted by law, lynx disclaims all warranties, express
-        or implied, including but not limited to the implied warranties of
-        merchantability, fitness for a particular purpose, and non-infringement.
-        we do not warrant that the service will be uninterrupted, error-free, or
-        free of viruses or other harmful components.
-      </p>
+  <h3 className="text-base md:text-2xl font-semibold mb-2 text-black">
+    1.3 Acceptance of Terms
+  </h3>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        7. LIMITATION OF LIABILITY
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        In no event shall lynx or its suppliers be liable for any indirect,
-        consequential, incidental, or special damages, including loss of profits
-        or data, even if advised of the possibility of such damages.
-      </p>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        Notwithstanding anything to the contrary, our total liability to you for
-        any cause whatsoever shall be limited to the amount paid, if any, by you
-        to us for the service.
-      </p>
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    By downloading, accessing, or using the App you acknowledge that you have
+    read, understood, and agree to be bound by these Terms and all policies
+    referenced herein, including the Privacy Policy.
+  </p>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        8. TERM AND TERMINATION
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        This Agreement remains in effect until terminated by either party. Lynx
-        may, in its sole discretion and without notice, suspend or terminate
-        your account for any reason, including violation of these terms. Upon
-        termination, you must cease all use of the application and delete all
-        copies in your possession.
-      </p>
+  {/* ARTICLE II */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE II: MARKETPLACE MODEL AND COMPANY ROLE
+  </h2>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        9. DISPUTE RESOLUTION: BINDING ARBITRATION
-      </h2>
-      <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
-        <li>
-          Informal Negotiation: Parties agree to attempt to resolve any dispute
-          informally for at least sixty (60) days before initiating arbitration.
-        </li>
-        <li>
-          Binding Arbitration: If unresolved, disputes shall be settled by
-          binding arbitration in accordance with the commercial arbitration
-          rules of the American Arbitration Association.
-        </li>
-        <li>
-          Waiver: You waive the right to litigate disputes in court before a
-          judge or jury or to participate in class actions.
-        </li>
-        <li>
-          Time Limit: Any cause of action must commence within one (1) year
-          after the cause of action accrues; otherwise, it is permanently
-          barred.
-        </li>
-      </ul>
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Lynx operates solely as a technology-enabled marketplace platform that
+    connects Service Providers with Service Consumers.
+  </p>
 
-      <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
-        10. CONTACT INFORMATION
-      </h2>
-      <p className="mb-4 text-base md:text-lg text-gray-700">
-        Questions regarding these Terms and Conditions should be directed to:
-      </p>
-      <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
-        <li>
-          Email:{" "}
-          <Link
-            href="mailto:info@lynxuni.com"
-            className="underline text-blue-400"
-          >
-            info@lynxuni.com
-          </Link>
-        </li>
-        <li>
-          Phone:{" "}
-          <Link href="tel:+18574004600" className="underline text-blue-400">
-            +1 857 400 4600
-          </Link>
-        </li>
-        <li>Address: 8 THE Green STE B Dover, DE 19901</li>
-      </ul>
-    </div>
+  <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
+    <li>The Company does not perform or supervise services offered.</li>
+    <li>The Company does not set pricing, schedules, or performance terms.</li>
+    <li>
+      Transactions occur directly between Service Providers and Service
+      Consumers.
+    </li>
+  </ul>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Nothing in these Terms creates an employment, agency, partnership, or joint
+    venture relationship between the Company and Users.
+  </p>
+
+  {/* ARTICLE III */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE III: USER ELIGIBILITY AND ACCOUNTS
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    You must be at least <strong>18 years old</strong> to access or use the App.
+    By using the Services, you represent that you have the legal capacity to
+    enter into this agreement.
+  </p>
+
+  <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
+    <li>Provide accurate account information.</li>
+    <li>Maintain confidentiality of login credentials.</li>
+    <li>Be responsible for all activity under your account.</li>
+  </ul>
+
+  <h3 className="text-base md:text-2xl font-semibold mb-2 text-black">
+    Prohibited Uses
+  </h3>
+
+  <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
+    <li>Misrepresent identity or qualifications.</li>
+    <li>Offer services without required licenses.</li>
+    <li>Use the App for unlawful or fraudulent activities.</li>
+    <li>Harass or harm other Users.</li>
+    <li>Attempt to circumvent platform payment systems.</li>
+  </ul>
+
+  {/* ARTICLE IV */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE IV: SERVICE PROVIDER RESPONSIBILITIES
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Service Providers are solely responsible for complying with all applicable
+    laws, licensing requirements, and professional obligations relating to the
+    services they provide.
+  </p>
+
+  <ul className="list-disc pl-6 mb-4 text-base md:text-lg text-gray-700">
+    <li>Maintain accurate service listings and qualifications.</li>
+    <li>Ensure compliance with all licensing and regulatory requirements.</li>
+    <li>Deliver services safely and professionally.</li>
+    <li>Resolve disputes directly with Service Consumers.</li>
+  </ul>
+
+  {/* ARTICLE V */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE V: PAYMENTS AND PLATFORM FEES
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Payments are processed through approved third-party payment processors such
+    as Stripe or PayPal. The Company may charge platform fees or commissions
+    which will be disclosed in the App and deducted before funds are remitted to
+    Service Providers.
+  </p>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Refunds, cancellations, and disputes are governed primarily by the Service
+    Provider’s stated terms. The Company may assist in mediation but does not
+    guarantee resolution.
+  </p>
+
+  {/* ARTICLE VI */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE VI: INTELLECTUAL PROPERTY
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    All intellectual property relating to the App—including software, design,
+    trademarks, and databases—is owned by the Company.
+  </p>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Users are granted a limited, non-exclusive license to use the App solely for
+    its intended marketplace purposes.
+  </p>
+
+  {/* ARTICLE VII */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE VII: DISCLAIMER OF WARRANTIES
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    The App and Services are provided <strong>“AS IS”</strong> and{" "}
+    <strong>“AS AVAILABLE.”</strong> The Company disclaims all warranties,
+    including merchantability, fitness for a particular purpose, and
+    non-infringement.
+  </p>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    The Company does not guarantee the quality, legality, safety, or outcomes of
+    services provided by Users.
+  </p>
+
+  {/* ARTICLE VIII */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE VIII: INDEMNIFICATION
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Users agree to defend, indemnify, and hold harmless the Company and its
+    affiliates from any claims, liabilities, damages, or expenses arising from
+    use of the App, violation of these Terms, or unlawful conduct.
+  </p>
+
+  {/* ARTICLE IX */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE IX: TERMINATION
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    The Company may suspend or terminate accounts at any time for violations of
+    these Terms or activities that threaten the security or integrity of the
+    platform.
+  </p>
+
+  {/* ARTICLE X */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE X: DISPUTE RESOLUTION AND ARBITRATION
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Any disputes not resolved informally will be resolved through binding
+    arbitration under the American Arbitration Association (AAA) rules in
+    Wilmington, Delaware.
+  </p>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    Users waive the right to participate in class-action lawsuits and agree that
+    claims must be brought individually.
+  </p>
+
+  {/* ARTICLE XI */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE XI: GOVERNING LAW
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    These Terms are governed by the laws of the State of Delaware, United
+    States, without regard to conflict-of-law principles.
+  </p>
+
+  {/* ARTICLE XII */}
+  <h2 className="text-lg md:text-3xl font-semibold mb-2 text-black">
+    ARTICLE XII: ASSIGNMENT
+  </h2>
+
+  <p className="mb-4 text-base md:text-lg text-gray-700">
+    The Company may assign these Terms in connection with mergers, acquisitions,
+    or asset transfers. Users may not assign their rights or obligations without
+    prior written consent from the Company.
+  </p>
+</div>
   );
 };
 
